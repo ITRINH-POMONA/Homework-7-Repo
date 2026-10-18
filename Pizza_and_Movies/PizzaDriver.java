@@ -10,10 +10,12 @@ public class PizzaDriver {
         System.out.println("Part 2:\n");
         new Pizza.PizzaBuilder("Pizza Hut", Pizza.Size.LARGE).pepperoni().mushrooms().extraCheese().build().eat();
         new Pizza.PizzaBuilder("Pizza Hut", Pizza.Size.SMALL).pepperoni().mushrooms().build().eat();
+
         new Pizza.PizzaBuilder("Little Ceasers", Pizza.Size.MEDIUM).pepperoni().mushrooms().extraCheese().olives()
             .bacon().spinach().onions().spicyPork().build().eat();
         new Pizza.PizzaBuilder("Little Ceasers", Pizza.Size.SMALL).pepperoni().mushrooms().extraCheese().olives()
             .bacon().spinach().build().eat();
+        
         new Pizza.PizzaBuilder("Dominos", Pizza.Size.SMALL).pepperoni().build().eat();
         new Pizza.PizzaBuilder("Dominos", Pizza.Size.LARGE).pepperoni().mushrooms().extraCheese().build().eat();
     }
