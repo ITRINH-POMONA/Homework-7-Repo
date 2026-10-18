@@ -1,4 +1,4 @@
-public class DietPlan {
+public enum DietPlan {
     NO_RESTRICTION("No Restriction") {
         @Override public boolean allows(Food food) { return true; }
     },

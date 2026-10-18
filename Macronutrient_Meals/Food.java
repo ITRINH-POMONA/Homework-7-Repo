@@ -25,7 +25,7 @@ public enum Food {
     private final boolean dairy;
     private final boolean nut;
 
-    Food(String label, boolean meat, boolearn, dairy, boolean nut) {
+     Food(String label, boolean meat, boolean dairy, boolean nut) {
         this.label = label;
         this.meat = meat;
         this.dairy = dairy;
